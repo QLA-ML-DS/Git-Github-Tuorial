@@ -69,13 +69,13 @@ Version Control System Tool Options
 ## The Command Line
 There are a lot of different ways to use Git. There are the original command line tools, and there are many graphical
 user interfaces of varying capabilities. For this book, we will be using Git on the command line. For one, the
-command line is the only place you can run all Git commands â most of the GUIs only implement some subset of Git
+command line is the only place you can run all Git commands--most of the GUIs only implement some subset of Git
 functionality for simplicity. If you know how to run the command line version, you can probably also figure out how to
-run the GUI version, while the opposite is not necessarily true. So we will expect you to know how to open Terminal in Linux, Mac or Command Prompt or Powershell in Windows. If you donât know what weâre talking about here, you might to read [command line for Windows users](https://www.ionos.com/digitalguide/server/know-how/windows-cmd-commands/), or  [command line for Mac users](https://www.taniarascia.com/how-to-use-the-command-line-for-apple-macos-and-linux/) or [command line for Linux users](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal).
+run the GUI version, while the opposite is not necessarily true. So we will expect you to know how to open Terminal in Linux, Mac or Command Prompt or Powershell in Windows. If you don't know what we are talking about here, you might to read [command line for Windows users](https://www.ionos.com/digitalguide/server/know-how/windows-cmd-commands/), or  [command line for Mac users](https://www.taniarascia.com/how-to-use-the-command-line-for-apple-macos-and-linux/) or [command line for Linux users](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal).
 
 ## Installing Git
 
-Before you start using Git, you have to make it available on your computer. Even if itâs already installed, itâs probably a
+Before you start using Git, you have to make it available on your computer. Even if it is already installed, it is probably a
 good idea to update to the latest version. You can either install it as a package or via another installer, or download the
 source code and compile it yourself.
 
@@ -97,13 +97,13 @@ There are also a few ways to install Git on Windows. The most official build is 
 website, just go to [git for Windows](http://git-scm.com/download/win).
 
 ## First-Time Git Setup
-Now that you have Git on your system, youâll want to do a few things to customize your Git environment. You should
-have to do these things only once on any given computer; theyâll stick around between upgrades. You can also change
+Now that you have Git on your system, you'll want to do a few things to customize your Git environment. You should
+have to do these things only once on any given computer; they will stick around between upgrades. You can also change
 them at any time by running through the commands again.
 
 ### Your Identity:  `git config`
 The first thing you should do when you install Git is to set your user name and e-mail address. This is important
-because every Git commit uses this information, and itâs immutably baked into the commits you start creating. A few settings are in order. You don't have to do it now but it is recommanded.
+because every Git commit uses this information, and it is immutably baked into the commits you start creating. A few settings are in order. You don't have to do it now but it is recommanded.
 
 ```bash
 $ git config --global user.name "<your-name>"
@@ -113,7 +113,7 @@ $ git config --global user.email "<your-email-address>"
 
 ### Your Editor
 Now that your identity is set up, you can configure the default text editor that will be used when Git needs you to
-type in a message. If not configured, Git uses your systemâs default editor, which is generally Vim. If you want to use a
+type in a message. If not configured, Git uses your system's default editor, which is generally Vim. If you want to use a
 different text editor, such as Emacs, you can do the following:
 
 
@@ -136,7 +136,7 @@ color.diff=auto
 ...
 ```
 
-You can also check what Git thinks a specific keyâs value is by typing `git config <key>`:
+You can also check what Git thinks a specific key's value is by typing `git config <key>`:
 
 ```bash
 $ git config user.name
@@ -211,7 +211,7 @@ To keep track of numerous versions of your work without saving numerous copies, 
 git is able to recreate any version on demand by adding the changes to the original in order up to the version of interest.
 
 To create your own local (on your own machine) repository, you must initialize the repository with the infrastructure git needs in order to keep a record of things within the repository that you're concerned
-about. If youâre starting to track an existing project in Git, you need to go to the projectâs directory and type **git init**.
+about. If youâre starting to track an existing project in Git, you need to go to the project's directory and type **git init**.
 
 * * * * 
 ### Practical : Create a Local Repository
