@@ -14,7 +14,7 @@
 A local version control system is a local database located on your local computer, in which every file change is stored as a patch. Every patch set contains only the changes made to the file since its last version. In order to see what the file looked like at any given moment, it is necessary to add up all the relevant patches to the file in order until that given moment.
 
 <center>
-  <a href="https://serengetitech.com/tech/introduction-to-git-and-types-of-version-control-systems/" ><img src="local.png" style="float:center; max-width: 400px; display: inline" alt="local"/> </a>
+  <a href="https://serengetitech.com/tech/introduction-to-git-and-types-of-version-control-systems/" ><img src="local.PNG" style="float:center; max-width: 400px; display: inline" alt="local"/> </a>
  </center>
 
 
@@ -40,7 +40,7 @@ Version Control System Tool Options
   - subversion (svn)
   
   <center>
-  <a href="https://serengetitech.com/tech/introduction-to-git-and-types-of-version-control-systems/" ><img src="centralized.png" style="float:center; max-width: 350px; display: inline" alt="centralized"/> </a>
+  <a href="https://serengetitech.com/tech/introduction-to-git-and-types-of-version-control-systems/" ><img src="centralized.PNG" style="float:center; max-width: 350px; display: inline" alt="centralized"/> </a>
  </center>
 
 
@@ -51,7 +51,7 @@ Version Control System Tool Options
   - bazaar (bzr)
   
   <center>
-  <a href="https://serengetitech.com/tech/introduction-to-git-and-types-of-version-control-systems/" ><img src="distributed.png" style="float:center; max-width: 350px; display: inline" alt="distributed"/> </a>
+  <a href="https://serengetitech.com/tech/introduction-to-git-and-types-of-version-control-systems/" ><img src="distributed.PNG" style="float:center; max-width: 350px; display: inline" alt="distributed"/> </a>
  </center>
  
  
@@ -346,7 +346,7 @@ Once you've made your account, create a repository by clicking Add `New reposito
  
  
  <center>
-  <a href="https://docs.github.com/en/repositories" ><img src="new-repo.png" style="float:center; max-width: 200px; display: inline" alt="new-repo"/> </a>
+  <a href="https://docs.github.com/en/repositories" ><img src="new-repo.PNG" style="float:center; max-width: 200px; display: inline" alt="new-repo"/> </a>
  </center>
 
 
@@ -355,7 +355,7 @@ You will be prompted to a page like this:
 
 
  <center>
-  <a href="https://docs.github.com/en/repositories" ><img src="create-repo.png" style="float:center; max-width: 500px; display: inline" alt="create-repo"/> </a>
+  <a href="https://docs.github.com/en/repositories" ><img src="create-repo.PNG" style="float:center; max-width: 500px; display: inline" alt="create-repo"/> </a>
  </center>
 
 
@@ -365,7 +365,7 @@ Now, put  `you` as your repository name:
 
 
 <center>
-  <a href="https://docs.github.com/en/repositories" ><img src="special-repo.png" style="float:center; max-width: 500px; display: inline" alt="special-repo"/> </a>
+  <a href="https://docs.github.com/en/repositories" ><img src="special-repo.PNG" style="float:center; max-width: 500px; display: inline" alt="special-repo"/> </a>
  </center>
 
 
@@ -374,7 +374,7 @@ On the picture, the warning appears because this repository already exists for m
 
 
 <center>
-  <a href="https://docs.github.com/en/repositories" ><img src="create-profil.png" style="float:center; max-width: 500px; display: inline" alt="create-profil"/> </a>
+  <a href="https://docs.github.com/en/repositories" ><img src="create-profil.PNG" style="float:center; max-width: 500px; display: inline" alt="create-profil"/> </a>
  </center>
 
 
@@ -384,7 +384,7 @@ You will then be redirected to a page like this:
 
 
 <center>
-  <a href="https://docs.github.com/en/repositories" ><img src="edit-profile.png" style="float:center; max-width: 500px; display: inline" alt="edit-profile"/> </a>
+  <a href="https://docs.github.com/en/repositories" ><img src="edit-profile.PNG" style="float:center; max-width: 500px; display: inline" alt="edit-profile"/> </a>
  </center>
 
 
@@ -393,7 +393,7 @@ Click on the pen at the top right, edit your profile and make sure to click on `
 
 
 <center>
-  <a href="https://docs.github.com/en/repositories" ><img src="commit-changes.png" style="float:center; max-width: 500px; display: inline" alt="commit-changes"/> </a>
+  <a href="https://docs.github.com/en/repositories" ><img src="commit-changes.PNG" style="float:center; max-width: 500px; display: inline" alt="commit-changes"/> </a>
  </center>
  
 
