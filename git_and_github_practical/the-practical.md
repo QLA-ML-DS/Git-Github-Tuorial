@@ -66,6 +66,8 @@ command line is the only place you can run all Git commands – most of the GUIs
 functionality for simplicity. If you know how to run the command line version, you can probably also figure out how to
 run the GUI version, while the opposite is not necessarily true. So we will expect you to know how to open Terminal in Linux, Mac or Command Prompt or Powershell in Windows. If you don’t know what we’re talking about here, you might to read [command line for Windows users](https://www.ionos.com/digitalguide/server/know-how/windows-cmd-commands/), or  [command line for Mac users](https://www.taniarascia.com/how-to-use-the-command-line-for-apple-macos-and-linux/) or [command line for Linux users](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal).
 
+For this tutorial, we will be using the terminal in Linux and Windows. 
+
 ## Installing Git
 
 Before you start using Git, you have to make it available on your computer. Even if it’s already installed, it’s probably a
@@ -76,10 +78,9 @@ source code and compile it yourself.
 If you want to install Git on Linux via a binary installer, you can generally do so through the basic packagemanagement tool that comes with your distribution. If you’re on a `Debian-based` distribution like `Ubuntu`, try `apt-get`:
 
 ```bash
-$ apt-get install git
+$ sudo apt-get install git
 ```
-For more options, there are instructions for installing on several different Unix flavors on the Git website,
-at [git for Linux](http://git-scm.com/download/linux).
+For more options, there are instructions for installing on several different Unix flavors on the Git website, at [git for Linux](http://git-scm.com/download/linux).
 
 ### Installing on Mac
 There are several ways to install Git on a Mac. An Git installer is
@@ -88,6 +89,7 @@ maintained and available for download at the Git website at  [git for Mac](http:
 ### Installing on Windows
 There are also a few ways to install Git on Windows. The most official build is available for download on the Git
 website, just go to [git for Windows](http://git-scm.com/download/win).
+
 
 ## First-Time Git Setup
 Now that you have Git on your system, you’ll want to do a few things to customize your Git environment. You should
@@ -105,16 +107,26 @@ $ git config --global user.email "<your-email-address>"
 
 
 ### Your Editor
-Now that your identity is set up, you can configure the default text editor that will be used when Git needs you to
-type in a message. If not configured, Git uses your system’s default editor, which is generally Vim. If you want to use a
-different text editor, such as Emacs, you can do the following:
-
-
+Now that your identity is set up, you can configure the default text editor that will be used when Git needs you to type in a message. 
+##### `Linux` & `Windows`
 ```bash
-$ git config --global core.editor emacs
+$ git config --global core.editor gedit
 ```
 
-### Checking Your Settings
+#####  `Windows`
+```bash
+> git config --global core.editor notepad
+```
+
+If not configured, Git uses your system’s default editor, which is generally `vim` or `vi` for Linux users and `notepad` for Windows users. If you want to use a different text editor, such as `xyz`, you can do the following:
+
+##### `Linux` & `Windows`
+```bash
+$/>  git config --global core.editor xyz
+```
+
+
+##### Checking Your Settings
 If you want to check your settings, you can use the `git config --list` command to list all the settings Git can find at
 that point:
 
@@ -129,7 +141,7 @@ color.diff=auto
 ...
 ```
 
-You can also check what Git thinks a specific key’s value is by typing `git config <key>`:
+You can also check what `git` thinks a specific key's value is by typing `git config <key>`:
 
 ```bash
 $ git config user.name
@@ -140,14 +152,20 @@ your-name
 
 The first thing you should know about any **tool** is how to get **help**. From the command line type
 
+##### Linux
 ```bash
 $ man git
 ```
 
-If you remember from the **shell class**, **man** tells you more about a command and how to use it. The manual entry for the git version control system will appear before you. You may scroll through it using arrows, or you can search for
-keywords by typing **/** followed by the search term. I'm interested in help, so I type **/help** and then hit enter. It looks like the syntax for getting help with git is **git --help**.
+##### Windows
+```bash
+> HELP git
+```
 
-To exit the manual page, type `q`.
+
+
+If you remember, **man** tells you more about a command and how to use it (in Linux) while the corresponding command for Windows is **HELP**. The manual entry for the git version control system will appear before you. You may scroll through it using arrows, or you can search for
+keywords by typing **/** followed by the search term. I'm interested in help, so I type **/help** and then hit enter. It looks like the syntax for getting help with git is **git --help**.
 
 Let's see what happens when we type :
 
